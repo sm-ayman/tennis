@@ -1,0 +1,35 @@
+.intro{
+    text-align: center;
+    background-color: cornflowerblue;
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+/* .field{
+    border: 2px solid grey;
+    height: 100%;
+} */
+.bat{
+    margin-left: 100px;
+    margin-bottom: 50px;
+    height: 300px;
+    /* position: fixed; */
+    transition: transform 0.3s ease-out;
+}
+
+.bat:hover{
+    transform: rotate(20deg);
+    transform-origin: 0% bottom;
+
+}
+.ball{
+    margin-bottom: 250px;
+    /* margin-left: 300px ; */
+    width: 35px;
+    height: 35px;
+    /* position: relative; */
+    transition: transform 1s ease-in-out 0.4s ;
+}
+.field:hover .ball{
+    transform: translate(800px, 300px );
+}
